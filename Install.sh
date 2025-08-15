@@ -5671,8 +5671,7 @@ function check_wireguard_config() {
 
 # 更新安装脚本
 function Update_Script() {
-    wget -O /root/singbox.sh https://raw.githubusercontent.com/Devmiston/sing-box/refs/heads/main/Install.sh
-    chmod +x /root/singbox.sh
+    wget -N -O /usr/local/bin/singbox.sh https://raw.githubusercontent.com/Devmiston/sing-box/refs/heads/main/Install.sh && chmod +x /usr/local/bin/singbox.sh && ln -sf /usr/local/bin/singbox.sh /usr/local/bin/singbox
 }
 
 # 添加定时任务以自动更新证书
