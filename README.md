@@ -18,8 +18,6 @@
 - **脚本支持 Multiplex、TCP Brutal、ECH 配置；若要启用 Multiplex、TCP Brutal，sing-box 内核需 ≥1.7.0，请在服务端自行安装 TCP Brutal。**
 - **脚本支持自定义各种配置参数；如果不懂如何配置，直接回车即可，脚本会自动随机生成配置（包括用户名、UUID、用户密码等）。**
 
-## **问题反馈Telegram群组**
-- **https://t.me/Devmiston**
 
 ## **安装**
 ### **Debian&&Ubuntu使用以下命令安装依赖**
@@ -32,7 +30,7 @@ yum update && yum -y install curl wget tar socat jq git openssl util-linux gcc-c
 ```
 ### **使用以下命令运行脚本**
 ```
-wget -N -O /usr/local/bin/singbox.sh https://raw.githubusercontent.com/Devmiston/sing-box/refs/heads/main/Install.sh && chmod +x /usr/local/bin/singbox.sh && ln -sf /usr/local/bin/singbox.sh /usr/local/bin/singbox && bash /usr/local/bin/singbox.sh
+wget -N -O /usr/local/bin/singbox.sh https://raw.githubusercontent.com/fjidbajd/sing-box-2/refs/heads/main/Install.sh && chmod +x /usr/local/bin/singbox.sh && ln -sf /usr/local/bin/singbox.sh /usr/local/bin/singbox && bash /usr/local/bin/singbox.sh
 ```
 
 ## **使用方法**
